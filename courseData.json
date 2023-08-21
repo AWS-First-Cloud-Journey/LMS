@@ -1,0 +1,134 @@
+{
+  "courses-test": [
+    {
+      "PutRequest": {
+        "Item": {
+          "ID": {
+            "S": "1"
+          },
+          "Categories": {
+            "L": [
+              {
+                "S": "Networking"
+              },
+              {
+                "S": "Storage"
+              }
+            ]
+          },
+          "Chapters": {
+            "L": [
+              {
+                "M": {
+                  "lectures": {
+                    "L": [
+                      {
+                        "M": {
+                          "lectureId": {
+                            "S": "ba82a9fc-aff5-43f7-8e40-12c0b4627369"
+                          },
+                          "length": {
+                            "N": "490"
+                          },
+                          "name": {
+                            "S": "VPC - Virtual Private Cloud"
+                          },
+                          "type": {
+                            "S": "video"
+                          }
+                        }
+                      },
+                      {
+                        "M": {
+                          "lectureId": {
+                            "S": "2c7a34a0-e228-4c2e-965b-91cb0ff3b7fc"
+                          },
+                          "length": {
+                            "N": "0"
+                          },
+                          "name": {
+                            "S": "Subnet"
+                          },
+                          "type": {
+                            "S": "video"
+                          }
+                        }
+                      },
+                      {
+                        "M": {
+                          "lectureId": {
+                            "S": "ab26ba2f-9f2d-4fa2-9a24-3fc8ceb0107e"
+                          },
+                          "length": {
+                            "N": "0"
+                          },
+                          "name": {
+                            "S": "Billing Quiz"
+                          },
+                          "type": {
+                            "S": "quiz"
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  "name": {
+                    "S": "Networking"
+                  }
+                }
+              }
+            ]
+          },
+          "Description": {
+            "S": "Full Practice Exam | Learn Cloud Computing | Pass the AWS Certified Solutions Architect Associate Certification SAA-C03!"
+          },
+          "Length": {
+            "N": "115"
+          },
+          "Level": {
+            "S": "300"
+          },
+          "Name": {
+            "S": "First Cloud Journey"
+          },
+          "Requirements": {
+            "L": [
+              {
+                "S": "Know the basics of IT"
+              },
+              {
+                "S": "No AWS Cloud experience is necessary, we'll use the AWS Free Tier"
+              }
+            ]
+          },
+          "Tags": {
+            "L": [
+              {
+                "S": "EC2"
+              },
+              {
+                "S": "Marketplace"
+              }
+            ]
+          },
+          "WhatToLearn": {
+            "L": [
+              {
+                "S": "FULLY UPDATED FOR SAA-C03: Pass the AWS Certified Solutions Architect Associate Certification"
+              },
+              {
+                "S": "All 800+ slides available as downloadable PDF"
+              },
+              {
+                "S": "Learn the AWS Fundamentals (EC2, ELB, ASG, RDS, ElastiCache, S3)"
+              },
+              {
+                "S": "Analyze 10+ Solution Architectures (traditional & serverless)"
+              }
+            ]
+          }
+        }
+      }
+    }
+  ]
+}
