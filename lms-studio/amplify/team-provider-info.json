@@ -357,5 +357,61 @@
         }
       }
     }
+  },
+  "monday": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-lmsstudio-monday-172146-authRole",
+      "UnauthRoleArn": "arn:aws:iam::148922931563:role/amplify-lmsstudio-monday-172146-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::148922931563:role/amplify-lmsstudio-monday-172146-authRole",
+      "Region": "ap-southeast-1",
+      "DeploymentBucketName": "amplify-lmsstudio-monday-172146-deployment",
+      "UnauthRoleName": "amplify-lmsstudio-monday-172146-unauthRole",
+      "StackName": "amplify-lmsstudio-monday-172146",
+      "StackId": "arn:aws:cloudformation:ap-southeast-1:148922931563:stack/amplify-lmsstudio-monday-172146/037c1b60-508d-11ee-b88c-02306eb15a50",
+      "AmplifyAppId": "d13rmfcxudkr4p"
+    },
+    "categories": {
+      "auth": {
+        "lmsstudioc3fd255f": {}
+      },
+      "function": {
+        "studioCourses": {
+          "tableName": "",
+          "deploymentBucketName": "amplify-lmsstudio-monday-172146-deployment",
+          "s3Key": "amplify-builds/studioCourses-6955354d395963494b58-build.zip"
+        },
+        "studioLectures": {
+          "deploymentBucketName": "amplify-lmsstudio-monday-172146-deployment",
+          "s3Key": "amplify-builds/studioLectures-794f554b414969396835-build.zip"
+        },
+        "studioUserCourse": {
+          "deploymentBucketName": "amplify-lmsstudio-monday-172146-deployment",
+          "s3Key": "amplify-builds/studioUserCourse-67775259313952395270-build.zip"
+        },
+        "studiousers": {
+          "deploymentBucketName": "amplify-lmsstudio-monday-172146-deployment",
+          "s3Key": "amplify-builds/studiousers-554d6b51596c54726479-build.zip"
+        },
+        "userOverview": {
+          "deploymentBucketName": "amplify-lmsstudio-monday-172146-deployment",
+          "s3Key": "amplify-builds/userOverview-4b395a6c6d4974436246-build.zip"
+        }
+      },
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d13rmfcxudkr4p",
+          "type": "manual"
+        }
+      },
+      "storage": {
+        "lmsstudiodcbd5e2f": {
+          "bucketName": "lecture-resource172126-monday",
+          "region": "ap-southeast-1"
+        }
+      },
+      "api": {
+        "lmsStudio": {}
+      }
+    }
   }
 }
